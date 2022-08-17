@@ -14,10 +14,9 @@ function Features() {
                 featureData.map(item => {
                     return(
                         <FeatureText 
+                            id={item.id}
                             container={item.container}
-                            class={item.class}
-                            image={item.image}
-                            imgClass={item.imgClass}
+                            textClass={item.textClass}
                             heading={item.heading}
                             paragraph={item.paragraph}
                             learnClass={item.learnClass}

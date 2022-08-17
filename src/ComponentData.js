@@ -1,55 +1,49 @@
-import transformImg from "./Assets/images/mobile/image-transform.jpg"
-import standoutImg from "./Assets/images/mobile/image-stand-out.jpg"
-import graphicDesignImg from "./Assets/images/mobile/image-graphic-design.jpg"
-import photographyImg from "./Assets/images/mobile/image-photography.jpg"
 import emily from "./Assets/images/image-emily.jpg"
 import jennie from "./Assets/images/image-jennie.jpg"
 import thomas from "./Assets/images/image-thomas.jpg"
 
 
-
 const featureData = [
     {
-        imgClass:"feature-img", 
-        image: transformImg
+        id:"transform-img",
+        container:"square"
     },
 
     {
-        container:"container",
-        class:"feature-text",
+        id:"transform-text",
+        container:"square",
+        textClass:" ",
         heading:"Tranform your brand",
         paragraph: "We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you",
         learnClass:"learn learn--yellow"
     }, 
 
     {
-        imgClass:"feature-img", 
-        image: standoutImg
+        id:"standout-img", 
+        container:"square"
     },
 
     {
-        container:"container",
-        class:"feature-text",
+        id:"standout-text",
+        container:"square",
+        textClass:" ",
         heading:"Stand out to the right audience",
         paragraph:"Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.",
         learnClass:"learn learn--pink"
     },
 
     {
-        container:"container container--full",
-        imgClass:"feature-img",
-        class:"feature-text feature-text--absolute feature-text--green",
-        image:graphicDesignImg,
-        textClass:"text-green",
+        id:"graphic-design-img",
+        container:"square square--full",
+        textClass:"feature-text--absolute feature-text--green",
         heading:"Graphic Design",
         paragraph:"Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention"
     },
 
     {
-        container:"container container--full",
-        imgClass:"feature-img",
-        class:"feature-text feature-text--absolute feature-text--blue",
-        image:photographyImg,
+        id:"photography-img",
+        container:"square square--full",
+        textClass:"feature-text--absolute feature-text--blue",
         heading:"Photography",
         paragraph:"Increase your credibility by getting the most stunning, high-quality photos that improve your business image"
     }
