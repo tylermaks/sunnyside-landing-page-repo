@@ -1,0 +1,45 @@
+$mdGray: hsl(232, 10%, 55%);
+$dkGray: hsl(213, 9%, 39%);
+$dkBlue: hsl(212, 27%, 19%);
+
+#testimonials{
+    text-align: center;
+    padding: 3rem 0;
+}
+
+h2{
+    color: $mdGray;
+    font-size: 1rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+
+.testimonial-text-container{
+    padding: 3rem;
+    
+
+    img{
+        border-radius: 50%;
+        height: 100px;
+        width:100px;
+    }
+
+    p{
+        color: $dkGray;
+        margin: 2rem 0;
+    }
+
+    h3{
+        color:$dkBlue;
+        margin-bottom: 1rem;
+    }
+
+    span{
+        color:$mdGray;
+        font-family: "Barlow", sans-serif;
+    }
+}
+
+
+
+

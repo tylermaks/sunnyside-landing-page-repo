@@ -1,0 +1,80 @@
+.feature-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.container {
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+.container--full {
+  position: relative;
+  padding: 0;
+}
+
+.feature-text {
+  margin: 0 auto;
+  max-width: 500px;
+  color: #818498;
+}
+
+.feature-text p {
+  margin: 2rem 0;
+}
+
+.feature-text span {
+  position: relative;
+  color: #23303e;
+  font-size: 1rem;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+}
+
+.feature-text span::after {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  content: " ";
+  display: block;
+  border-radius: 5px;
+  height: 10px;
+  opacity: 0.2;
+  width: 150px;
+  z-index: -1;
+}
+
+.feature-text--absolute {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 95%;
+}
+
+.feature-text--green {
+  color: #25564b;
+}
+
+.feature-text--blue {
+  color: #19536b;
+}
+
+.learn {
+  display: block !important;
+}
+
+.learn--yellow::after {
+  background-color: #fad400;
+}
+
+.learn--pink::after {
+  background-color: #fe7867;
+}
+/*# sourceMappingURL=Features.css.map */

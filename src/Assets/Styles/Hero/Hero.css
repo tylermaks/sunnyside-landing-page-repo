@@ -36,10 +36,4 @@
 .down-arrow {
   width: 10%;
 }
-
-@media screen and (min-width: 500px) {
-  #hero {
-    background-image: url("../../images/desktop/image-header.jpg");
-  }
-}
 /*# sourceMappingURL=Hero.css.map */
