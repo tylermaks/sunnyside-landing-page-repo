@@ -1,0 +1,34 @@
+//VARIABLES
+$red: hsl(7, 99%, 70%);
+$yellow: hsl(51, 100%, 49%);
+$dkCyan: hsl(167, 40%, 24%);
+$blue: hsl(198, 62%, 26%);
+$mdCyan: hsl(168, 34%, 41%);
+$dkBlue: hsl(212, 27%, 19%);
+$dkGray: hsl(213, 9%, 39%);
+$mdGray: hsl(232, 10%, 55%);
+$ltGray: hsl(210, 4%, 67%);
+
+//SETUP
+*, *::after, *::before{
+  box-sizing: border-box;
+  margin:0;
+}
+
+html, body{
+  min-height: 100%;
+  width: 100%
+}
+
+section{
+  width: 100%;
+}
+
+h1{
+  color:#fff;
+  font-family: "Fraunces", sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+
