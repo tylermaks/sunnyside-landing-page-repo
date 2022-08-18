@@ -9,7 +9,7 @@ function Testimonials(){
     return(
         <section id="testimonials">
             <h2>Client Testimonials</h2>
-
+            <div class="testimonial-flex">
             {
                 testimonialData.map(item => {
                     return(
@@ -22,6 +22,7 @@ function Testimonials(){
                     )
                 })
             }
+            </div>
         </section>
     )
 }

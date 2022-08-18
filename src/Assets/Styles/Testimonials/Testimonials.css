@@ -3,8 +3,11 @@
   padding: 3rem 0;
 }
 
-h2 {
+#testimonials h2 {
+  color: #818498;
+  font-size: 1rem;
   letter-spacing: 2.5px;
+  text-transform: uppercase;
 }
 
 .testimonial-text-container {
@@ -19,7 +22,8 @@ h2 {
 
 .testimonial-text-container p {
   color: #5a636c;
-  margin: 2rem 0;
+  margin: 2rem auto;
+  max-width: 400px;
 }
 
 .testimonial-text-container h3 {
@@ -30,5 +34,16 @@ h2 {
 .testimonial-text-container span {
   color: #818498;
   font-family: "Barlow", sans-serif;
+}
+
+@media screen and (min-width: 1000px) {
+  #testimonials {
+    padding: 10em 0;
+  }
+  .testimonial-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 /*# sourceMappingURL=Testimonials.css.map */

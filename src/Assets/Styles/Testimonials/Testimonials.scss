@@ -5,19 +5,20 @@ $dkBlue: hsl(212, 27%, 19%);
 #testimonials{
     text-align: center;
     padding: 3rem 0;
+
+    h2{
+        color: $mdGray;
+        font-size: 1rem;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+    }
+    
 }
 
-h2{
-    // color: $mdGray;
-    // font-size: 1rem;
-    letter-spacing: 2.5px;
-    // text-transform: uppercase;
-}
 
 .testimonial-text-container{
     padding: 3rem;
     
-
     img{
         border-radius: 50%;
         height: 100px;
@@ -26,7 +27,8 @@ h2{
 
     p{
         color: $dkGray;
-        margin: 2rem 0;
+        margin: 2rem auto;
+        max-width: 400px;
     }
 
     h3{
@@ -40,6 +42,15 @@ h2{
     }
 }
 
+@media screen and (min-width:1000px) {
+    #testimonials{
+        padding: 10em 0;
+    }
 
+    .testimonial-flex{
+        display: flex;
+    }
+
+}
 
 
