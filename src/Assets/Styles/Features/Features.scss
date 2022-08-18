@@ -48,11 +48,10 @@ $mdGray: hsl(232, 10%, 55%);
     background-repeat: no-repeat;
     background-size: cover;
 
-    height:400px;
     width:100%;
 
     position: relative;
-    padding: 5rem 5%; 
+    padding: 5em; 
     text-align: center;
 
     &--full{
@@ -66,14 +65,14 @@ $mdGray: hsl(232, 10%, 55%);
     max-width: 500px;
 
     p{
-        margin: 2rem 0; 
+        margin: 2em 0; 
     }
 
     span{
         position:relative;
 
         color:$dkBlue;
-        font-size: 1rem;
+        font-size: 1em;
         letter-spacing: 1.25px;
         text-transform: uppercase;
     }
@@ -166,7 +165,6 @@ $mdGray: hsl(232, 10%, 55%);
     }
 
     .square{
-        height: 50vw;
         text-align: left;
 
         &--full{

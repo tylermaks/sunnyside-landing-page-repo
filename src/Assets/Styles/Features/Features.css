@@ -47,10 +47,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
   width: 100%;
   position: relative;
-  padding: 5rem 5%;
+  padding: 5em;
   text-align: center;
 }
 
@@ -64,13 +63,13 @@
 }
 
 .feature-text p {
-  margin: 2rem 0;
+  margin: 2em 0;
 }
 
 .feature-text span {
   position: relative;
   color: #23303e;
-  font-size: 1rem;
+  font-size: 1em;
   letter-spacing: 1.25px;
   text-transform: uppercase;
 }
@@ -153,7 +152,6 @@
         grid-template-areas: "transformText transformImg" "standoutImg standoutText" "graphicDesignImg photographyImg";
   }
   .square {
-    height: 50vw;
     text-align: left;
   }
   .square--full {
