@@ -51,7 +51,7 @@ $mdGray: hsl(232, 10%, 55%);
     width:100%;
 
     position: relative;
-    padding: 5em; 
+    padding: 10rem 5rem;
     text-align: center;
 
     &--full{
@@ -125,7 +125,7 @@ $mdGray: hsl(232, 10%, 55%);
     }
 }
 
-@media screen and (min-width:450px){
+@media screen and (min-width:768px){
     #transform-img{
         background-image: url("../../images/desktop/image-transform.jpg");
     }

@@ -1,4 +1,15 @@
 footer {
+  background-color: #76bcae;
+  padding: 4rem 0;
+  height: 300px;
+  width: 100%;
+}
+
+svg path {
+  fill: #25564b;
+}
+
+.footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,14 +23,9 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #76bcae;
-  padding: 4rem 0;
-  height: 300px;
-  width: 100%;
-}
-
-svg path {
-  fill: #25564b;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 500px;
 }
 
 .link-container {
@@ -38,6 +44,11 @@ svg path {
 
 .footer-link {
   color: #25564b;
+  cursor: pointer;
   font-family: "Barlow", sans-serif;
+}
+
+.footer-link:hover {
+  color: #fff;
 }
 /*# sourceMappingURL=Footer.css.map */

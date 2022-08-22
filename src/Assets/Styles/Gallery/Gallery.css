@@ -9,7 +9,7 @@
   width: 100%;
 }
 
-#milk-bottle {
+#milk-bottles {
   background-image: url("../../images/mobile/image-gallery-milkbottles.jpg");
 }
 
@@ -32,7 +32,7 @@
   width: 100%;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 768px) {
   #gallery {
     display: -ms-grid;
     display: grid;
