@@ -31,9 +31,9 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: absolute;
-  top: 5rem;
-  right: 3rem;
-  padding: 2rem 4rem;
+  top: 6rem;
+  right: 2.5rem;
+  padding: 2rem 5.5rem;
   background-color: #fff;
 }
 
@@ -43,28 +43,35 @@
   display: flex;
 }
 
+.menu::before {
+  position: absolute;
+  top: -20px;
+  right: 0;
+  content: "";
+  display: block;
+  height: 20px;
+  width: 20px;
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(50%, transparent), color-stop(0, #FFF));
+  background-image: linear-gradient(to bottom right, transparent 50%, #FFF 0);
+}
+
 .nav-link {
   display: inline;
-  color: #5a636c;
+  color: #818498;
   font-family: "Barlow", sans-serif;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   cursor: pointer;
 }
 
 .contact-btn {
   border: none;
   border-radius: 25px;
-  background-color: #fff;
+  background-color: #fad400;
   color: #23303e;
   cursor: pointer;
   font-family: "Fraunces", sans-serif;
-  padding: 1em 1.5em;
+  padding: 1em 2em;
   text-transform: uppercase;
-}
-
-.contact-btn:hover {
-  color: #fff;
-  background-color: #66d6ff;
 }
 
 @media screen and (min-width: 1000px) {
@@ -72,6 +79,7 @@
     display: none;
   }
   .menu {
+    display: block;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -82,10 +90,20 @@
     background-color: unset;
     padding: 0;
   }
+  .menu::before {
+    display: none;
+  }
   .nav-link {
     color: #fff;
     margin-bottom: 0;
     margin-right: 5em;
+  }
+  .contact-btn {
+    background-color: #fff;
+  }
+  .contact-btn:hover {
+    color: #fff;
+    background-color: #66d6ff;
   }
 }
 /*# sourceMappingURL=NavBar.css.map */
